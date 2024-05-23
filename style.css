@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 300px;
+    background-color: #c9c9c9;
+    margin: 10px auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.convertr {
+    height: 50px;
+    background-color: rgb(81, 153, 93);
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.data {
+    height: 50px;
+    background-color: #a2a2a2;
+    text-align: right;
+    padding: 5px;
+}
+
+input, select, button {
+    height: 30px;
+    padding: 3px;
+}
+
+button {
+    background-color: red;
+    width: 50%;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block;
+}
+
+h3 {
+    margin-top: 25px;
+}
+
+.js_input {
+    width: calc(70% - 5px);
+}
+
+.js_currency {
+    width: calc(30% - 5px);
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(148, 25, 25);
+}
